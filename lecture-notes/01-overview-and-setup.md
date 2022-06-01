@@ -29,7 +29,7 @@
 
 ### Getting our code for the Bootcamp Prep lessons
 
-- Download the files from https://drive.google.com/drive/folders/1bn5_FS_5CLrVXtX2VAPCNMO3cnKYWd0_
+- Download the file bootcamp-prep-main.zip from https://drive.google.com/drive/folders/1bn5_FS_5CLrVXtX2VAPCNMO3cnKYWd0_
 - Unzip bootcamp-prep-main.zip
 - Open the folder bootcamp-prep-main in VsCode
 
