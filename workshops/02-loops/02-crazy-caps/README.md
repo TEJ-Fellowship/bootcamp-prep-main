@@ -5,5 +5,5 @@ Define a function, `crazyCaps`, that accepts a string as an argument.
 capitalized. The first letter should be lower-cased.
 
 ```javascript
-crazyCaps('fullstack is amazing'); // => fUlLsTaCk iS AmAzInG!
+crazyCaps("tej is amazing"); // => tEj iS AmAzInG!
 ```
