@@ -2,10 +2,10 @@
 
 ### Installations
 
-- Install VsCode (if not installed)
+- Install VSCode (if not installed)
   - go to https://code.visualstudio.com/download and download and install the version for your operating system
 - Install Node (if not installed)
-  - on your VsCode, open the terminal
+  - on your VSCode, open the terminal
   - on the terminal, type the following command:
     ```
     node —version
@@ -31,19 +31,19 @@
 
 - Download the file bootcamp-prep-main.zip from https://drive.google.com/drive/folders/1bn5_FS_5CLrVXtX2VAPCNMO3cnKYWd0_
 - Unzip bootcamp-prep-main.zip
-- Open the folder bootcamp-prep-main in VsCode
+- Open the folder bootcamp-prep-main in VSCode
 
 ### Working with git
 
 - Lets create a git repository
-  - Open terminal from VsCode
+  - Open terminal from VSCode
   - make sure you are in the 'bootcamp-prep-main' folder from the terminal, then type the following command
     ```
     git init
     ```
     This will initialize a new git repository
 - Lets commit our files into our newly created git repository
-  - On the sidebar of your VsCode, go to the git view
+  - On the sidebar of your VSCode, go to the git view
   - Then in the message box, lets type the message for our first commit
     ```
     first commit
@@ -68,7 +68,7 @@
 
 ### A git side note
 
-- at this point, if you now go to the git View (the 3 dots on the side of VsCode), you will see that ALL the 1k+ files from the 'node_modules' directory now appear as new files to be committed into our git repository. Since these files are not our code, and since we can always get them by running 'npm install', we do not need to commit these files into our git repository. To exclude any folder or files from our repository
+- at this point, if you now go to the git View (the 3 dots on the side of VSCode), you will see that ALL the 1k+ files from the 'node_modules' directory now appear as new files to be committed into our git repository. Since these files are not our code, and since we can always get them by running 'npm install', we do not need to commit these files into our git repository. To exclude any folder or files from our repository
   - we have create a file with the name '.gitignore' in our root project folder (in bootcamp-prep-main)
   - then inside .gitnore file, which is empty right now, add the name of the file or folder you want git to ignore. In our case
     ```
@@ -79,14 +79,14 @@
 
 ### Lets run our node project
 
-- open the VsCode terminal and go to the directory 'bootcamp-prep-main/pre-work-workshops/03-expressions-variables-and-tdd'
+- open the VSCode terminal and go to the directory 'bootcamp-prep-main/pre-work-workshops/03-expressions-variables-and-tdd'
 - then run the following command in the terminal
   ```
   npm run test
   ```
   when you type anything after `npm run` in the command line, then it will run that specific command as mentioned under the 'scripts' key in the package.json file. so in our case, it will run 'testem', because we ran the 'test' command
 - this command will now run our testem environment in the browser at the url http://localhost:7357/. so lets open that url
-- now, in VsCode, open the file bootcamp-prep-main/pre-work-workshops/03-expressions-variables-and-tdd/01-favorite-activity/favorite-activity.spec.js
+- now, in VSCode, open the file bootcamp-prep-main/pre-work-workshops/03-expressions-variables-and-tdd/01-favorite-activity/favorite-activity.spec.js
   - you will see that this specific test case is looking for the variable 'favoriteActivity' to have the value 'coding'. it is looking for this value in any javascript files inside this directory, which in our case is the only other file 'favorite-activity.js'
   - so lets open favorite-activity.js, and add the following line of code
     ```
@@ -101,9 +101,9 @@
   - Create repo in your space
     - bootcamp-prep-main
 
-### Extensions for VsCode
+### Extensions for VSCode
 
-- Prettier extension on VsCode
+- Prettier extension on VSCode
 - Create .prettierrc in root directory
   - {}
 - Settings (Ctrl ,)
