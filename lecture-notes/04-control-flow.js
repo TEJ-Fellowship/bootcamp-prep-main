@@ -7,17 +7,57 @@
 // else if
 // logical operator
 
-let word = "perfect";
-// when we call a method, such as toUpperCase()
-// on any data type, such as the string variable word
-let lastWord = word.toUpperCase();
+let anythingThatEvaluatesToAbooleanValue = true;
 
-// the data itself might or might not change
-// in the case of the method toUpperCase() on a string
-// the data itself doesn't change
-// it only evaluates to the changed state
-console.log(word);
+// the structure of string is
+// the keyword 'if'
+// followed by () that can only have
+//      either the boolean value true or false
+//      or any expression that evaluates to the boolean value true or false
+if (anythingThatEvaluatesToAbooleanValue) {
+  //some code
+}
 
-// so you have to capture the value in a different variable
-// if you want to save the evaluated state
-console.log(lastWord);
+// if the value is true, then the code block executes
+if (true) {
+  console.log("this code block will execute");
+}
+if (false) {
+  console.log("this code block will not execute");
+}
+
+// or if the expression evaluates to true, then the code block executes
+if (10 > 9) {
+  // because 10 is greater than 9 comparision evaluates to true
+  console.log("this code block will execute");
+}
+if (10 < 9) {
+  // because 10 is less than 9 comparision evaluates to true
+  console.log("this code block will not execute");
+}
+
+// if the 'if' condition is false, and if there is an 'else' block
+// then that 'else' block will execute
+if (10 < 9) {
+  // because 10 is less than 9 comparision evaluates to true
+  console.log("this code block will not execute");
+} else {
+  console.log("this will execute because the if condition is false");
+}
+
+// if the 'if' condition is false, and if there is an 'else if' block
+// then that 'else if' block will also be evaluated to see
+// whether to execute or not
+
+if (10 < 9) {
+  // because 10 is less than 9 comparision evaluates to true
+  console.log("this code block will not execute");
+} else if (9 > 10) {
+  console.log(
+    "this code block will also not execute because this expression will also evaluate to false"
+  );
+} else {
+  console.log(
+    "this will execute because all the if and else if conditions above it are false"
+  );
+}

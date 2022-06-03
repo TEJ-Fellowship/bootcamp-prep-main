@@ -3,3 +3,4 @@
 // loop through string
 // Implement break
 // Implement continue.. not very important
+// Define simple while loop - needed for 03-bacteria-time
