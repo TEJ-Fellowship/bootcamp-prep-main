@@ -1,5 +1,10 @@
 /*
 ARRAYS II
+- to cover:
+  - arrays can contain other arrays (multi dimensional array)
+  - looping through two dimensional array -> nested for loop
+  - using modulus in array
+
 - splice: mutates the array
   - return value
   - in place value
