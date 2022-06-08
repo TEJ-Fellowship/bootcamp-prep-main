@@ -3,7 +3,7 @@ ARRAYS II
 - to cover:
   - arrays can contain other arrays (multi dimensional array)
   - looping through two dimensional array -> nested for loop
-  - using modulus in array
+  - using modulus in loop
 
 - splice: mutates the array
   - return value
@@ -11,8 +11,27 @@ ARRAYS II
   - insert value
 - join
 - concat
-- any value in an array can be any other data type, including another array
-- some multi dimensional array handlings
-
-- assigning array vs. assigning primitive value
 */
+
+let mda = [123, [1, 2, 10], "hello"];
+// to [123, 1, 2, 10, 'hello']
+// required state is in variable fa, flatten mda to [123, 1, 2, 10, 'hello']
+
+let fa = [];
+
+for (let i = 0; i < mda.length; i++) {
+  if (Array.isArray(mda[i])) {
+    for (let j = 0; j < mda[i].length; j++) {
+      fa.push(mda[i][j]);
+    }
+  } else {
+    fa.push(mda[i]);
+  }
+}
+
+// console.log(mda);
+// console.log(fa);
+
+console.log(Array.isArray(2));
+console.log(Array.isArray(mda));
+console.log(typeof mda);
