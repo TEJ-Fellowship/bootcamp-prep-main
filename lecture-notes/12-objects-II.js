@@ -6,3 +6,9 @@ OBJECTS:
 - write your own method with parameter
 - write your own method with this
 */
+
+/*
+PROBLEMS to go through
+- call them all: calling function inside function, like callback function
+- taco cat inc: very involved
+*/
