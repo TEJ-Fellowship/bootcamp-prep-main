@@ -4,6 +4,7 @@ OBJECTS:
   - e.g. array.push
 - write your own simple method
 - write your own method with parameter
+  - parameter is a function
 - write your own method with this
 */
 
