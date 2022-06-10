@@ -39,18 +39,23 @@ let classRoom = [
 
 // YOUR CODE BELOW
 function attendanceCheck(day) {
-  let allAtt = [];
+  //say the day is 'Monday'
+  // students will be ['Marnie', 'Shoshanna']
+  let students = [];
+
   for (let i = 0; i < classRoom.length; i++) {
-    loop1: for (let key in classRoom[i]) {
-      let name = key;
-      let att = classRoom[i][name];
-      for (let j = 0; j < att.length; j++) {
-        if (att[j][day]) {
-          allAtt.push(name);
-          break loop1;
+    let curVal = classRoom[i];
+    for (let key in curVal) {
+      let curStudent = key;
+      let curAttendance = curVal[curStudent];
+      for (let j = 0; j < curAttendance.length; j++) {
+        let curDayAttendance = curAttendance[j];
+        if (curDayAttendance[day]) {
+          students.push(curStudent);
         }
       }
     }
   }
-  return allAtt;
+
+  return students;
 }
