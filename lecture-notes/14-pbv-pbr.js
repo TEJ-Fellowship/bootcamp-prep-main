@@ -2,6 +2,8 @@
 - declaring primitives
 - assigning one primitive var to another
 - equality for primitive
+    - assigned
+    - separately declared
 - operating on primitive
 - passing primitives into function
 
